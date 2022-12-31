@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,400,500,700,900);
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+
+body {
+  background: #F7F9FC;
+  color: #3D2287;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  color: #6A3AEB;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #AB26E0;
+  font-size: 20px;
+  font-weight: 700;
+}
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #F736BD;
+  font-weight: 600;
+  font-size: 18px;
+}
+a:hover {
+  color: #E02D26;
+}
+
+/* Custom design with class (99% of your design) */
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-pink {
+  background-color: #F736BD;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-pink:hover {
+  background-color: #E02D26;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #F736BD;
+}
+.list-inline i:hover {
+  color: #E02D26;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
+}
